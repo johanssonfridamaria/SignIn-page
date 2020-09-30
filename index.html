@@ -1,13 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <meta name="description" content="Här beskriver jag min sida">
+    <script src="https://kit.fontawesome.com/310528ea6d.js" crossorigin="anonymous"></script>
     <title>Inloggningssida</title>
 </head>
+
 <body>
-    
+    <section class="signIn">
+        <div class="topBox">
+            <div class="header">
+                <h1>Sign in</h1>
+            </div>
+            <form>
+                <div class="formContent">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div class="formContent">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password">
+                </div>
+                <div class="check">
+                    <input type="checkbox" name="signedIn" id="signedIn">
+                    <label for="signedIn">Keep me logged in</label>
+                </div>
+                <div class="formContent">
+                    <button class="submit">login now</button>
+                </div>
+                <div class="formContent">
+                    <a href="">Forgot your password?</a>
+                </div>
+            </form>
+        </div>
+        <div class="bottomBox">
+            <div class="header">
+                <h1>Or sign in with</h1>
+            </div>
+            <div class="buttons">
+                    <a href="" class="connect google">
+                        <i class="fab fa-google"></i>
+                        <p>Google</p> 
+                    </a>
+                    <a href="" class="connect twitter">
+                        <i class="fab fa-twitter"></i>
+                        <p>Twitter</p>
+                    </a>
+                    <a href="" class="connect facebook">
+                        <i class="fab fa-facebook-f"></i>
+                        <p>Facebook</p>
+                    </a>
+            </div>
+        </div>
+
+
+
+
+
+    </section>
 </body>
+
 </html>

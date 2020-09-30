@@ -1,7 +1,113 @@
 * {
-margin:0;
+    margin: 0;
 }
 
-html, body {
+html, {
     height: 100%;
+}
+
+body {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.signIn {
+    background-color: white;
+    border: 2px solid black;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 75px;
+    width: 450px;
+}
+
+.topBox {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.formContent {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.formContent label {
+    margin: 5px 0;
+}
+
+.check {
+    margin-bottom: 20px;
+}
+
+.formContent input {
+    height: 22px;
+}
+
+.submit {
+    background-color: #49c5b6;
+    border: none;
+    color: white;
+    width: 100%;
+    padding: 20px 32px;
+    align-self: center;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 16px;
+}
+
+.formContent a {
+    font-size: 14px;
+    color: #49c5b6;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.connect {
+    padding: 15px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.facebook {
+    background-color: rgb(59, 91, 152);
+    color: white;
+}
+
+.twitter {
+    background-color: #25B6E6;
+    color: white;
+}
+
+.google {
+    background-color: #fcfcfc;
+    color: black;
+}
+
+.fa-google {
+    color: red;
+}
+
+.fab {
+    padding:5px;
+}
+
+h1 {
+    font-size: 20px;
 }
